@@ -18,13 +18,13 @@ int main() {
 		
 	*/
 	
-  // DEKLARASI VARIABEL
+  	// DEKLARASI VARIABEL
   
 	int angka;
 	cout << "Masukan angka 1 - 4 = "; cin >> angka;
   
   
-  // ALGORITMANYA 
+  	// ALGORITMANYA 
 	
 	if ( angka == 1 ) {
 		cout << "SATU";
@@ -147,10 +147,12 @@ int main() {
 	cout << "--- ******************************** ---\n";
 	cout << "****************************************\n";
 
-	DEKLARASI VARIABEL
+	// DEKLARASI VARIABEL
+	
 	int tgl_lahir, bln_lahir, thn_lahir, x, y, z, sisa;
 
-	MENGINPUTKAN TGL_LAHIR, BLN_LAHIR DAN THN_LAHIR
+	// MENGINPUTKAN TGL_LAHIR, BLN_LAHIR DAN THN_LAHIR
+	
 	cout << "Masukan Tanggal Lahir 	= "; cin >> tgl_lahir;
 	cout << "Masukan Bulan Lahir 	= "; cin >> bln_lahir;
 	cout << "Masukan Tahun Lahir 	= "; cin >> thn_lahir;
@@ -170,40 +172,40 @@ int main() {
 	// MENCARI JUMLAH HARI DARI 1 JANUARI SAMPAI BULAN DAN TANGGAL LAHIR ANDA
 	
 	if ( bln_lahir == 1 ) {
-//		cout << tgl_lahir << " Januari adalah hari ke  -> " << tgl_lahir;
+		cout << tgl_lahir << " Januari adalah hari ke  -> " << tgl_lahir;
 	} else if ( bln_lahir == 2 ) {
 		y = 31 + tgl_lahir;
-//		cout << tgl_lahir << " Februari adalah hari ke -> " << y;
+		cout << tgl_lahir << " Februari adalah hari ke -> " << y;
 	} else if ( bln_lahir == 3 ) {
 		y = 31 + x + tgl_lahir;
-//		cout << tgl_lahir << " Maret adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Maret adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 4 ) {
 		y = 31 + x + 31 + tgl_lahir;
-//		cout << tgl_lahir << " April adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " April adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 5 ) {
 		y = 31 + x + 31 + 30 + tgl_lahir;
-//		cout << tgl_lahir << " Mei adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Mei adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 6 ) {
 		y = 31 + x + 31 + 30 + 31 + tgl_lahir;
-//		cout << tgl_lahir << " Juni adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Juni adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 7 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + tgl_lahir;
-//		cout << tgl_lahir << " Juli adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Juli adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 8 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + tgl_lahir;
-//		cout << tgl_lahir << " Agustus adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Agustus adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 9 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + tgl_lahir;
-//		cout << tgl_lahir << " September adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " September adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 10 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + 31 + tgl_lahir;
-//		cout << tgl_lahir << " Oktober adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Oktober adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 11 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30 + tgl_lahir;
-//		cout << tgl_lahir << " November adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " November adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 12 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + tgl_lahir;
-//		cout << tgl_lahir << " Desember adalah hari ke - > " << y << "\n";
+		cout << tgl_lahir << " Desember adalah hari ke - > " << y << "\n";
 	} else {
 		cout << "Bulan anda tidak ditemukan" << "\n";
 	}
