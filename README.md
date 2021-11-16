@@ -4,6 +4,9 @@
 
 
 #include <iostream>
+	
+// itu abis include diatas dikasih iostream ya, sebenernya udh ditulis tapi gak tampil, gak tau lh tulis aja :) #SALAMDARIYGBUAT
+
 using namespace std;
   
 int main() {
