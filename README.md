@@ -1,11 +1,9 @@
 # TUGAS-ALGORITMA-PRAKTEK-PERCABANGAN
-TUGAS KULIAH
 
+// TUGAS KULIAH
 
-CODING --->>
 
 #include <iostream>
-
 using namespace std;
   
 int main() {
