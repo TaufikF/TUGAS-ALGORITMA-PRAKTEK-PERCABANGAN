@@ -196,7 +196,7 @@ int main() {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + tgl_lahir;
 		cout << tgl_lahir << " Agustus adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 9 ) {
-		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + tgl_lahir;
+		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 31 + tgl_lahir;
 		cout << tgl_lahir << " September adalah hari ke - > " << y << "\n";
 	} else if ( bln_lahir == 10 ) {
 		y = 31 + x + 31 + 30 + 31 + 30 + 31 + 30 + 31 + tgl_lahir;
